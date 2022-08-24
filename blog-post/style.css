@@ -1,0 +1,57 @@
+* {
+  margin: auto;
+  padding: auto;
+  margin-bottom: auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  align-items:center;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  background: var(--white-ligth);
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  width: 75vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.title {
+  padding: 20px;
+  font-size: 20px;
+  align-items: center;
+  text-align:left;
+  display: block;
+
+}
+
+.links-container {
+
+  padding: 18px;
+  display: block;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 600;
+  height: 15px;
+  width: 400px;
+}
+
+.tree-container .post img {
+  width: 1000px;
+  height: 700px;
+  align-items: center;
+  display: flex;
+}
+
+.container .author img {
+  display: flex;
+}
