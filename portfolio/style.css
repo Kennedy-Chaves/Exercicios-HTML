@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@300;600&display=swap');
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.body, html {
+  font-family: Merriweather Sans;
+  background-color: #22212C; 
+  display: flex;
+}
+
+.container {
+position: absolute;
+width: 348px;
+height: 292px;
+left: 40px;
+top: 40px;
+display: flex;
+
+
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+
+.container .tree-container {
+left: 150px;
+top: 72px;
+}
+
+.tree-container .perfil img {
+width: 128px;
+height: 128px;
+left: 150px;
+top: 72px;
+
+background: url(perfil.jpeg);
+border: 2px solid #00FF00;
+border-radius: 50%;
+}
+
+.insta-user {
+position: absolute;
+width: 196px;
+height: 26px;
+left: 116px;
+top: 230px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 29px;
+
+color: #837E9F;
+}
+
+.insta-user2 {
+  position: absolute;
+  width: 128px;
+  height: 17px;
+  left: 150px;
+  top: 266px;
+  
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+}
+
+.links-container {
+  position: fixed;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
+  
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  }
+
+  .links-container .link {
+width: 166px;
+height: 15px;
+left: 124px;
+top: 661px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #837E9F;
+  }
+
+.links-container .img-container {
+width: 24px;
+height: 24px;
+left: 80px;
+top: 568px;
+
+}
+
+
